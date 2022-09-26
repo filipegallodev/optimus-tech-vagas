@@ -108,12 +108,63 @@
   line-height: 24px;
 }
 
+.vagas-abertas-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  max-width: 1280px;
+  margin: 192px auto 64px;
+}
+
+.vagas-abertas-container span {
+  background-color: #8E24240D;
+  padding: 4px 12px;
+  border-radius: 12px;
+  color: #8E2424;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.vagas-abertas-container h2 {
+  margin: 20px;
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.vagas-abertas-container p {
+  margin-bottom: 64px;
+  font-size: 1.25rem;
+  line-height: 30px;
+  color: #667085;
+}
+
+.vagas-abertas-container img {
+  width: 100%;
+  max-width: 1216px;
+  max-height: 400px;
+}
+
 html {
   font-family: 'Inter', sans-serif;
 }
 
 @media (max-width: 1330px) {
   .metricas-container {
+    margin: 0 24px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .vagas-abertas-container {
+    margin: 192px 24px 64px;
+  }
+}
+
+@media (max-width: 875px) {
+  .sobre-nos-container {
     margin: 0 24px;
   }
 }
@@ -126,6 +177,19 @@ html {
   .header-titulo {
     margin: 0 50%;
     width: 100%;
+  }
+}
+
+@media (max-width: 720px) {
+  .header-container {
+    margin: 0 24px
+  }
+}
+
+@media (max-width: 632px) {
+  .header-menu {
+    width: 100%;
+    margin: 32px 0;
   }
 }
 
