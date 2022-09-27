@@ -8,7 +8,7 @@
   justify-content: space-around;
   flex-wrap: wrap;
   height: 80px;
-  max-width: 1440px;
+  max-width: 1380px;
   margin: 0 auto;
   font-weight: 500;
 }
@@ -80,7 +80,7 @@
   align-items: center;
   justify-content: space-around;
   gap: 32px;
-  max-width: 1280px;
+  max-width: 1216px;
   margin: 0 auto;
 }
 
@@ -115,7 +115,7 @@
   justify-content: space-around;
   text-align: center;
   max-width: 1280px;
-  margin: 192px auto 64px;
+  margin: 192px auto 40px;
 }
 
 .procurando-talentos-container span {
@@ -158,10 +158,11 @@
 .vagas-container div {
   width: 100%;
   max-width: 768px;
-  margin: 0 auto 32px;
+  margin: 0 auto;
 }
 
 .vagas-container h3 {
+  margin: 24px 0 32px;
   color: #101828;
   font-size: 1.25rem;
   font-weight: 500;
@@ -172,7 +173,7 @@
   border: 1px solid #EAECF0;
   border-radius: 16px;
   padding: 24px 24px 28px;
-  margin: 32px 0 24px;
+  margin: 24px 0;
 }
 
 .vagas-itens h4 {
@@ -191,6 +192,51 @@
   line-height: 24px;
 }
 
+.depoimentos-container,
+.depoimentos-perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.depoimentos-container {
+  background: #C3191908;
+  max-width: 1216px;
+  padding: 64px;
+  margin: 72px auto 0;
+}
+
+.depoimentos-container > span {
+  color: #8E2424;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.depoimentos-container p {
+  margin: 16px 0 32px;
+  color: #101828;
+  font-size: 2.25rem;
+  font-weight: 500;
+  line-height: 44px;
+}
+
+.depoimentos-perfil .nome {
+  margin: 16px 0 4px;
+  color: #101828;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.depoimentos-perfil .cargo {
+  color: #667085;
+  font-size: 0.875rem;
+  line-height: 20px;
+}
+
 html {
   font-family: 'Inter', sans-serif;
 }
@@ -203,7 +249,11 @@ html {
 
 @media (max-width: 1280px) {
   .procurando-talentos-container {
-    margin: 192px 24px 64px;
+    margin: 192px 24px 40px;
+  }
+
+  .depoimentos-container {
+    margin: 72px 24px 0;
   }
 }
 
