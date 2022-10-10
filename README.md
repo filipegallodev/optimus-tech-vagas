@@ -1,4 +1,4 @@
-# Optimus Tech - Vagas
+# 💼 Optimus Tech - Vagas
 ![Capa](https://i.imgur.com/QBswxdY.png)
 
 ## 🎯 Objetivo
