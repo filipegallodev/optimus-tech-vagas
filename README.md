@@ -1,5 +1,5 @@
 # 💼 Optimus Tech - Vagas
-![Capa](https://i.imgur.com/QBswxdY.png)
+![Capa](https://i.imgur.com/z7qcXAO.png)
 
 ## 🎯 Objetivo
 Criar uma página de vagas de uma empresa fictícia chamada OptimusTech, faz parte do #7DaysOfCode da Alura.
